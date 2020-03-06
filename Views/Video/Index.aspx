@@ -7,8 +7,6 @@
     <title>Index</title>
 </head>
 <body>
-    <div>
-    
-    </div>
+   <h1>Lista de videos encontrados</h1>
 </body>
 </html>

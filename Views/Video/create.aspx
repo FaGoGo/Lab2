@@ -15,7 +15,7 @@
 </head>
 </head>
 <body>
-    <form action ="/Video/Create" method="post">
+    <form action ="/Video/create" method="post">
     <fieldset>
     <legend> DATOS DEL VIDEO</legend>
 
@@ -31,7 +31,7 @@
      <label for ="url">url</label>
     <input type="text" name ="url "/> 
 
-     <input type="submit" value ="reproducir "/>
+     <input type="submit" value ="Registrar "/>
 
     </fieldset>
     </form>

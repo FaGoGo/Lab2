@@ -79,6 +79,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="Views\Homee\Index.aspx" />
     <Content Include="Views\Video\create.aspx" />
+    <Content Include="Views\Video\Index.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

@@ -4,6 +4,9 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
+using System.Data.SqlClient;
+using System.Data;
+using MVCLaboratorio.Utilerias;
 namespace MVCLaboratorio.Controllers
 {
     public class VideoController : Controller
@@ -24,8 +27,18 @@ namespace MVCLaboratorio.Controllers
                                     string titulo, 
                                     int repro, 
                                     string url)
-        {
-            return View();
+        {//guardae el video
+            List<SqlParameter> parametros = new List<SqlParameter>();
+            parametros.Add(new SqlParameter("@idVideo", idVideo));
+            parametros.Add(new SqlParameter("@titulo", titulo));
+            parametros.Add(new SqlParameter("@repro", repro));
+            parametros.Add(new SqlParameter("@url", url));
+
+            BaseHelper.ejecutarSentencia("sp_video_insertar",
+                                           CommandType.StoredProcedure,
+                                           parametros);
+
+            return RedirectToAction("Index", "Video");
         }
         public ActionResult delete()
         {

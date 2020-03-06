@@ -5,18 +5,17 @@
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
     <title>Index</title>
-    <head>
+    
   <meta charset="UTF-8">
   <meta name="description" content="ASP.NET MVC 2 CRUD Video">
   <meta name="keywords" content="ASP.NET, MVC, Facpya">
   <meta name="author" content="Fatima Gomez">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
+
 </head>
 <body>
-    <div>
+ 
     <h1> Menu de Opciones</h1>
-    <a herf="/Video/Index">Opciones</a>
-    </div>
+    <a href="/Video/create">Opciones</a>
 </body>
 </html>
