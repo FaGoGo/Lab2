@@ -16,6 +16,12 @@
 <body>
  
     <h1> Menu de Opciones</h1>
-    <a href="/Video/create">Opciones</a>
+    <a href="/Video/Index">Mostrar Video</a>
+    <hr />
+    <a href="/Video/create">Agregar</a>
+    <hr />
+    <a href ="/Video/delete">Eliminar Video</a>
+   <hr />
+    <a href ="/Video/edit">Editar Video</a>
 </body>
 </html>

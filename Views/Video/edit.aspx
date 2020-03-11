@@ -4,23 +4,15 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
-    <title>Registrar Video</title>
-    <head>
-  <meta charset="UTF-8">
-  <meta name="description" content="ASP.NET MVC 2 CRUD Video">
-  <meta name="keywords" content="ASP.NET, MVC, Facpya">
-  <meta name="author" content="Fatima Gomez">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="../../Content/Site.css" rel="stylesheet" type="text/css" />
-</head>
+    <title>edit</title>
 </head>
 <body>
-    <form action ="/Video/create" method="post">
+    <form action ="/Video/edit" method="post">
     <fieldset>
-    <legend> DATOS DEL VIDEO</legend>
+    <legend> DATOS DEL VIDEO A EDITAR</legend>
 
     <label for ="idVideo">idVideo</label>
-    <input type="text" name ="idVideo "/>
+    <input type="text" name ="idVideo"/>
 
      <label for ="titulo">Titulo</label>
     <input type="text" name ="titulo "/>
@@ -31,7 +23,7 @@
      <label for ="url">url</label>
     <input type="text" name ="url "/> 
 
-     <input type="submit" value ="Registrar "/>
+     <input type="submit" value ="Editar "/>
 
     </fieldset>
     </form>
